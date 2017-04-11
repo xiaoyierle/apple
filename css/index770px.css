@@ -1,0 +1,242 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-29 14:02:03
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-03-30 01:11:19
+*/
+nav .con1{
+	display: none;
+}
+nav .con2{
+	display: block;
+	padding: 0 20px;
+	text-align: justify;
+	line-height: 44px;
+}
+nav .con2 a{
+	display: inline-block;
+}
+nav .con2:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+nav .wheel{
+	height: 460px;
+}
+.wheel .wheel-img a{
+	display: block;	
+	width: 100%;
+	height: 100%;
+	/* background: darkmagenta; */
+	float: left;
+	background: #cc3341;
+	background-image: url('../img/iphone7_small.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center 200px;
+	
+}
+.wheel .word>div{
+	color: #fff;
+	border: 1px solid #fff;
+	width: 50px;
+	height: 20px;
+	margin: 10px auto;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.wheel .word>h3{
+	color: #fff;
+	font-size: 26px;
+}
+.wheel .word>h4{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+.wheel .left,.wheel .right{
+	width: 70px;
+	height: 100%;
+	/* background: green; */	
+	position: absolute;
+	right: 0;top: 0;
+	cursor: pointer;
+}
+.pic-list{
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: 501px;
+	background-position: center;
+
+}
+.pic-item{
+	width:100%;
+	height: 200px;
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	background: red;
+	float: left;	
+}
+.pic-item:first-child{
+	border-left: 0;
+	background-image: url('../img/w_small.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pic-item:last-child{
+	border-right: 0;
+	background-image: url('../img/i_small.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pic-item:nth-child(2){
+	background-image: url('../img/a_small.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pic-item:nth-child(3){
+	background-image: url('../img/s_small.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer-mobel{
+	/* min-width: 300px; */
+	width: 100%;
+	height: 539px;
+	top: 1303px;
+	/* background: blue; */
+	position: absolute;
+	background: #f2f2f2;
+	display: block;
+}
+.footer{
+	display: none;
+}
+.footer-body{
+	/* max-width: 970px; */
+	width: 90%;
+	height: 539px;	
+	margin: 0 auto;
+}
+.footer-top .top-list li{
+	font-size: 12px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	color: #888;
+}
+
+
+.footer-top .top-list a{
+	display: block;
+	/* width: 50px; */
+	font-size: 12px;
+	color: #333;
+	line-height: 3ex;
+	/* width: 15px; */
+	/* text-align: justify; */
+}
+.footer-top .top-list a:hover{
+	display: block;
+	font-size: 12px;
+	color: #000;
+	line-height: 3ex;
+	/* text-decoration: underline; */
+}
+.top-list p{
+	display: block;
+	float: right;
+	/* margin-left: 10px; */
+	display: block;
+	font-size: 14px;
+	color:#888;
+	list-style: none;
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+.more{
+	width: 90%;
+	height: auto;
+	position: absolute;
+	top: 360px;
+}
+.footer-mobel .more{
+	font-size: 12px;
+	padding: 15px 0;
+	border-bottom: 0;
+	color: #888;
+}
+.footer-mobel .more a{
+	font-size: 12px;
+	padding: 15px 0;
+	color: #0070c9;
+}
+.more1{
+	width: 90%;
+	height: auto;
+	margin-left: -5px;
+	position: absolute;
+	top: 420px;
+}
+.more2{
+	width: 970px;
+	height: auto;
+
+	position: absolute;
+	top: 468px;
+}
+.more2 p{
+	display: inline-block;
+	float: right;
+	/* margin-left: 10px; */
+	margin-top: 2px;
+	display: block;
+	font-size: 12px;
+	color:#888;
+	line-height: 3ex;
+	list-style: none;
+	float: left;
+}
+.footer-mobel .more1{
+	font-size: 12px;
+	padding: 15px 0;
+
+	color: #888;
+}
+.more1 span{
+	display: block;
+	width: 257px;
+	font-size: 12px;
+	color:#888;
+	line-height: 3ex;
+	float: left;
+}
+.more1 ul li a{
+	display: block;
+	font-size: 12px;
+	color:#333;
+	line-height: 3ex;
+	list-style: none;
+	float: left;
+}
+.more1 p{
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.more1 ul{
+	float: left;
+
+}
+.more1 ul li{
+	float: left;
+	padding: 0px 10px 0 5px;
+}
